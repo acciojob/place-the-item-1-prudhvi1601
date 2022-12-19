@@ -1,1 +1,14 @@
- 
+.container .item{
+    background-color: brown;
+    gap: 20px;
+    height: 200px;
+    width: 335px;
+    color: yellow;
+    font-weight: 5000;
+    border: 1px solid white;
+ }
+.container{
+    position: relative;
+     display: flex;
+     flex-wrap: wrap;
+ }
